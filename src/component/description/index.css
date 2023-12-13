@@ -1,0 +1,11 @@
+.discription {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discription__text { 
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5em;
+}

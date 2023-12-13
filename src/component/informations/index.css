@@ -1,0 +1,44 @@
+.informations__info {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.informations__description { 
+    color: #000;
+    font-size: 16px;
+    padding-top: 28px;
+}
+
+.informations__image {
+    border-radius: 50%;
+}
+
+.informations__contact {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.informations__sub{
+    display: flex;
+    gap: 12px;
+}
+
+.informations__sub-value {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.informations__sub-value:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000;
+ }

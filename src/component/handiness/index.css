@@ -1,0 +1,6 @@
+.handiness__list {
+    display: flex;
+    padding: 24px 0 0 0;
+    flex-direction: column;
+    gap: 24px;
+}
